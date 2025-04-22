@@ -16,8 +16,8 @@ import java.util.*
 object RecurlySessionData {
 
     private var publicKey: String = ""
-    internal const val versionName = "recurly-client-android; v${BuildConfig.VERSION_NAME}"
-    internal const val deviceId = Settings.Secure.ANDROID_ID
+    const val versionName = "recurly-client-android; v${BuildConfig.VERSION_NAME}"
+    const val deviceId = Settings.Secure.ANDROID_ID
 
     internal fun getPublicKey(): String{
         return publicKey
