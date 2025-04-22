@@ -7,7 +7,7 @@ import java.util.regex.Matcher
 import java.util.regex.Pattern
 import kotlin.collections.ArrayList
 
-internal object RecurlyInputValidator {
+object RecurlyInputValidator {
 
     /**
      * Validates the color that has been sent from the app
